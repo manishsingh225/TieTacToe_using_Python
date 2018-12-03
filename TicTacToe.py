@@ -2,8 +2,6 @@
 import random
 import sys
 list_board=[" "]*9
-#list_board=['X','X','X'," "," ",' '," "," "," "]
-print(list_board)
 def display_board_initial():
 	print(list_board[0]+"|"+ list_board[1]+"|"+list_board[2] )
 	print("-----")
